@@ -28,7 +28,7 @@ MSZoning: Identifies the general zoning classification of the sale.
        RP	Residential Low Density Park 
        RM	Residential Medium Density
 	
-LotFrontage: Linear feet of street connected to property
+LotFrontage: Linear feet of street connected to property # 与物业的距离
 
 LotArea: Lot size in square feet
 
@@ -37,7 +37,7 @@ Street: Type of road access to property
        Grvl	Gravel	
        Pave	Paved
        	
-Alley: Type of alley access to property
+Alley: Type of alley access to property # 物业通道类型
 
        Grvl	Gravel
        Pave	Paved
@@ -175,9 +175,9 @@ OverallCond: Rates the overall condition of the house
        2	Poor
        1	Very Poor
 		
-YearBuilt: Original construction date
+YearBuilt: Original construction date # 原施工日期
 
-YearRemodAdd: Remodel date (same as construction date if no remodeling or additions)
+YearRemodAdd: Remodel date (same as construction date if no remodeling or additions) # 改造日期（如果没有改造或添加，则与施工日期相同）
 
 RoofStyle: Type of roof
 
@@ -239,7 +239,7 @@ Exterior2nd: Exterior covering on house (if more than one material)
        Wd Sdng	Wood Siding
        WdShing	Wood Shingles
 	
-MasVnrType: Masonry veneer type
+MasVnrType: Masonry veneer type # 砌体饰面类型
 
        BrkCmn	Brick Common
        BrkFace	Brick Face
@@ -247,7 +247,7 @@ MasVnrType: Masonry veneer type
        None	None
        Stone	Stone
 	
-MasVnrArea: Masonry veneer area in square feet
+MasVnrArea: Masonry veneer area in square feet # 砌体饰面面积（平方英尺）
 
 ExterQual: Evaluates the quality of the material on the exterior 
 		
@@ -274,7 +274,7 @@ Foundation: Type of foundation
        Stone	Stone
        Wood	Wood
 		
-BsmtQual: Evaluates the height of the basement
+BsmtQual: Evaluates the height of the basement # 计算地下室的高度
 
        Ex	Excellent (100+ inches)	
        Gd	Good (90-99 inches)
@@ -299,8 +299,8 @@ BsmtExposure: Refers to walkout or garden level walls
        Mn	Mimimum Exposure
        No	No Exposure
        NA	No Basement
-	
-BsmtFinType1: Rating of basement finished area
+	 
+BsmtFinType1: Rating of basement finished area # 地下室完工区域等级
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -310,9 +310,9 @@ BsmtFinType1: Rating of basement finished area
        Unf	Unfinshed
        NA	No Basement
 		
-BsmtFinSF1: Type 1 finished square feet
-
-BsmtFinType2: Rating of basement finished area (if multiple types)
+BsmtFinSF1: Type 1 finished square feet # 1型成品平方英尺
+ 
+BsmtFinType2: Rating of basement finished area (if multiple types) # 地下室完工区域的等级（如果有多种类型）
 
        GLQ	Good Living Quarters
        ALQ	Average Living Quarters
@@ -322,13 +322,13 @@ BsmtFinType2: Rating of basement finished area (if multiple types)
        Unf	Unfinshed
        NA	No Basement
 
-BsmtFinSF2: Type 2 finished square feet
+BsmtFinSF2: Type 2 finished square feet # 2型成品平方英尺
 
-BsmtUnfSF: Unfinished square feet of basement area
+BsmtUnfSF: Unfinished square feet of basement area # 地下室面积未完工平方英尺
 
-TotalBsmtSF: Total square feet of basement area
+TotalBsmtSF: Total square feet of basement area # 地下室总面积
 
-Heating: Type of heating
+Heating: Type of heating # 加热方式
 		
        Floor	Floor Furnace
        GasA	Gas forced warm air furnace
@@ -358,27 +358,27 @@ Electrical: Electrical system
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
        Mix	Mixed
 		
-1stFlrSF: First Floor square feet
+1stFlrSF: First Floor square feet # 一楼平方英尺
  
-2ndFlrSF: Second floor square feet
+2ndFlrSF: Second floor square feet # 二楼平方英尺
 
 LowQualFinSF: Low quality finished square feet (all floors)
 
 GrLivArea: Above grade (ground) living area square feet
 
-BsmtFullBath: Basement full bathrooms
+BsmtFullBath: Basement full bathrooms # 地下室全套浴室
 
-BsmtHalfBath: Basement half bathrooms
+BsmtHalfBath: Basement half bathrooms # 地下室半浴室
 
-FullBath: Full bathrooms above grade
+FullBath: Full bathrooms above grade # 高档全浴室
 
-HalfBath: Half baths above grade
+HalfBath: Half baths above grade # 半浴级以上
 
 Bedroom: Bedrooms above grade (does NOT include basement bedrooms)
 
 Kitchen: Kitchens above grade
 
-KitchenQual: Kitchen quality
+KitchenQual: Kitchen quality # 厨房质量
 
        Ex	Excellent
        Gd	Good
@@ -399,9 +399,9 @@ Functional: Home functionality (Assume typical unless deductions are warranted)
        Sev	Severely Damaged
        Sal	Salvage only
 		
-Fireplaces: Number of fireplaces
+Fireplaces: Number of fireplaces # 壁炉数量
 
-FireplaceQu: Fireplace quality
+FireplaceQu: Fireplace quality # 壁炉质量
 
        Ex	Excellent - Exceptional Masonry Fireplace
        Gd	Good - Masonry Fireplace in main level
@@ -457,19 +457,19 @@ PavedDrive: Paved driveway
        P	Partial Pavement
        N	Dirt/Gravel
 		
-WoodDeckSF: Wood deck area in square feet
+WoodDeckSF: Wood deck area in square feet # 以平方英尺为单位计算木甲板面积
 
-OpenPorchSF: Open porch area in square feet
+OpenPorchSF: Open porch area in square feet # 开放式门廊面积(平方英尺)
 
-EnclosedPorch: Enclosed porch area in square feet
+EnclosedPorch: Enclosed porch area in square feet # 以平方英尺为单位的封闭门廊区域
 
-3SsnPorch: Three season porch area in square feet
+3SsnPorch: Three season porch area in square feet # 三季门廊面积平方英尺
 
-ScreenPorch: Screen porch area in square feet
+ScreenPorch: Screen porch area in square feet # 屏风门廊面积(平方英尺)
 
-PoolArea: Pool area in square feet
+PoolArea: Pool area in square feet # 泳池面积(平方英尺)
 
-PoolQC: Pool quality
+PoolQC: Pool quality # 泳池质量
 		
        Ex	Excellent
        Gd	Good
@@ -477,7 +477,7 @@ PoolQC: Pool quality
        Fa	Fair
        NA	No Pool
 		
-Fence: Fence quality
+Fence: Fence quality # 围栏质量
 		
        GdPrv	Good Privacy
        MnPrv	Minimum Privacy
@@ -485,7 +485,7 @@ Fence: Fence quality
        MnWw	Minimum Wood/Wire
        NA	No Fence
 	
-MiscFeature: Miscellaneous feature not covered in other categories
+MiscFeature: Miscellaneous feature not covered in other categories # 其他类别中未涵盖的杂项功能
 		
        Elev	Elevator
        Gar2	2nd Garage (if not described in garage section)
